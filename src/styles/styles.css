@@ -4,16 +4,16 @@ body {
 
 .navbar {
     padding: 10px;
-    border-bottom: 2px solid rgba(150, 150, 150, 0.6);
+    background-color: #3d3d3d !important;
 }
 
 .container {
-    width: 100%;
+    /* width: 100%;
     margin: 20px auto;
     display: grid;
     grid-template-rows: 350px 350px;
     grid-gap: 5px;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .card {
@@ -26,19 +26,37 @@ body {
     font-family: sans-serif;
 }
 
-.card a {
-    text-decoration: none;
-    color: grey;
-}
-
-.card a:hover {
-    color: rgb(175, 174, 174);
-    transition: all .15s;
-}
-
 .card-img-top {
     border-radius: 3%;
     width: 180px;
     height: 270px;
     margin: 8px auto;
+}
+
+.movie-card:hover a {
+    color: rgb(175, 174, 174);
+    transition: all .15s;
+}
+
+.movie-card a {
+    text-decoration: none;
+    color: grey;
+    transition: all .35s;
+}
+
+.movie-card {
+    background-color: rgb(36, 40, 46);
+    transition: all .35s;
+}
+
+.movie-card:hover {
+    background-color: #2d3436;
+    cursor: pointer;
+    transition: all .35s;
+}
+
+.navbar {
+    position:fixed;
+    width: 100%;
+    z-index: 1030;
 }

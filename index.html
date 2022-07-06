@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="./src/styles/styles.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link href="./src/styles/styles.css" rel="stylesheet" />
     <title>Movies App</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div style="position: relative;height: 60px;">
+      <nav class="shadow-lg navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">MoviesApp</a>
@@ -21,116 +36,185 @@
               <a class="nav-link" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./src/pages/generos.html">Generos</a>
-              </li>
+              <a class="nav-link" href="./src/pages/generos.html">Generos</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="./src/pages/peliculas.html">Peliculas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./src/pages/series.html">Series</a>
+              <a class="nav-link" href="./src/pages/series.html">Series</a>
             </li>
           </ul>
         </div>
       </nav>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </div>
+    <!-- Navbar -->
+    <div class="container py-3">
+      <div class="row g-3">
 
-    <div class="container">
-        <div class="row">
-
-          <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="src/img/catch-me.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#">Catch Me If You Can</a>
-                </div>
-            </div>
-          </div>
-          
-          <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="src/img/wall-street.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <a href="#">The Wolf of Wall Street</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="src/img/revenant.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <a href="#">The Revenant</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="src/img/departed.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <a href="#">The Departed</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-                <img class="card-img-top" src="src/img/titanic.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <a href="#">Titanic</a>
-                </div>
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/catch-me.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Catch Me If You Can</a>
             </div>
           </div>
         </div>
 
-        <div class="row">
-
-          <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="src/img/hollywood.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="#">Once Upon a Time in Hollywood</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="src/img/django.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="#">Django Unchained</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="src/img/gatsby.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="#">The Great Gatsby</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="src/img/island.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <a href="#">Shutter Island</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="src/img/diamante.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="#">Blood Diamond</a>
-                    </div>
-                </div>
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/wall-street.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">The Wolf of Wall Street</a>
             </div>
           </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/revenant.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">The Revenant</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/departed.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">The Departed</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/titanic.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Titanic</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/hollywood.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Once Upon a Time in Hollywood</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/django.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Django Unchained</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/gatsby.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">The Great Gatsby</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/island.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Shutter Island</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/diamante.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Blood Diamond</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/diamante.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Blood Diamond</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="shadow movie-card card">
+            <img
+              class="card-img-top"
+              src="src/img/diamante.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <a href="#">Blood Diamond</a>
+            </div>
+          </div>
+        </div>
+        
       </div>
-</body>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
