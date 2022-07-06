@@ -1,3 +1,44 @@
+body {
+    background: rgb(36, 40, 46);
+}
+
 .navbar {
     padding: 10px;
+    border-bottom: 2px solid rgba(150, 150, 150, 0.6);
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-gap: 5px;
+    justify-content: space-between;
+}
+
+.card {
+    height: 380px;
+    background: rgb(36, 40, 46);
+    color: white;
+    border: none;
+    padding: 0 0;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card a {
+    text-decoration: none;
+    color: grey;
+}
+
+.card a:hover {
+    color: rgb(175, 174, 174);
+    transition: all .15s;
+}
+
+.card-img-top {
+    border-radius: 3%;
+    width: 180px;
+    height: 270px;
+    margin: 8px auto;
 }
