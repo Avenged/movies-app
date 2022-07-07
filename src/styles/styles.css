@@ -17,6 +17,7 @@ body {
 }
 
 .card {
+    width: 190px;
     height: 380px;
     background: rgb(36, 40, 46);
     color: white;
