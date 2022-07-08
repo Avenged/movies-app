@@ -13,11 +13,18 @@ movieDetailModal.addEventListener('show.bs.modal', function (event) { //Aquí
     
     const movieTitle = card.getAttribute('data-bs-title');
     const synopsis = card.getAttribute('data-bs-synopsis');
+    const rating = card.getAttribute('data-bs-rating');
+    const year = card.getAttribute('data-bs-year');
 
     const h5 = movieDetailModal.querySelector('.modal-title')
+    const h4 = movieDetailModal.querySelector('.modal-year')
     const p = movieDetailModal.querySelector('.modal-body p')
+    const h6 = movieDetailModal.querySelector('.modal-rating')
+   
 
     h5.textContent = movieTitle;
+    h4.textContent = year;
     p.textContent = synopsis;
+    h6.textContent = rating;
 
 });

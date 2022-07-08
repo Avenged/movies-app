@@ -7,15 +7,6 @@ body {
     background-color: #3d3d3d !important;
 }
 
-.container {
-    /* width: 100%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-rows: 350px 350px;
-    grid-gap: 5px;
-    justify-content: space-between; */
-}
-
 .card {
     width: 190px;
     height: 380px;
