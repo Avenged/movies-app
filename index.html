@@ -53,8 +53,14 @@
       <div class="row g-3">
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <img
+          <div 
+            class="shadow movie-card card" 
+            data-bs-toggle="modal" 
+            data-bs-target="#movieDetailModal" 
+            data-bs-title="Catch Me If You Can" 
+            data-bs-synopsis="Sinopsis de Catch Me If You Can"
+          >
+            <img  
               class="card-img-top"
               src="src/img/catch-me.jpg"
               alt="Card image cap"
@@ -66,7 +72,12 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div 
+            class="shadow movie-card card" 
+            data-bs-toggle="modal" 
+            data-bs-target="#movieDetailModal"
+            data-bs-title="The Wolf of Wall Street" 
+            data-bs-synopsis="Sinopsis de The Wolf of Wall Street">
             <img
               class="card-img-top"
               src="src/img/wall-street.jpg"
@@ -79,7 +90,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/revenant.jpg"
@@ -92,7 +103,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/departed.jpg"
@@ -105,7 +116,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/titanic.jpg"
@@ -118,7 +129,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/hollywood.jpg"
@@ -131,7 +142,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/django.jpg"
@@ -144,7 +155,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/gatsby.jpg"
@@ -157,7 +168,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/island.jpg"
@@ -170,7 +181,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/diamante.jpg"
@@ -183,7 +194,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/dont-look-up.jpg"
@@ -196,7 +207,7 @@
         </div>
 
         <div class="mx-auto col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="shadow movie-card card" data-bs-toggle="modal" data-bs-target="#movieDetailModal">
             <img
               class="card-img-top"
               src="src/img/aviator.jpg"
@@ -212,15 +223,15 @@
     </div>
 
     <!-- Vertically centered modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
+    <div class="modal fade" id="movieDetailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Pelicula</h5>
+            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-              Sinopsis de la pelicula
+            <p></p>
           </div>
         </div>
       </div>
@@ -232,5 +243,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="./src/js/app.js"></script>
   </body>
 </html>
