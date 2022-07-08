@@ -36,6 +36,19 @@ body {
     transition: all .35s;
 }
 
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.modal-content {
+    background-color: rgb(36, 40, 46, 0.8);
+    color: white;
+}
+
 .movie-card {
     background-color: rgb(36, 40, 46);
     transition: all .35s;
