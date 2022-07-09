@@ -42,17 +42,20 @@
         const synopsis = movie.synopsis;
         const rating = movie.rating;
         const year = movie.year;
+        const cast = movie.cast;
 
         const h5 = movieDetailModal.querySelector('.modal-title');
-        const h4 = movieDetailModal.querySelector('.modal-year');
+        const h50 = movieDetailModal.querySelector('.modal-year');
         const p = movieDetailModal.querySelector('.modal-body p');
+        const h60 = movieDetailModal.querySelector('.modal-cast');
         const h6 = movieDetailModal.querySelector('.modal-rating');
         const img = movieDetailModal.querySelector('.modal-body img');
         
         img.src = movie.image;
         h5.textContent = movieTitle;
-        h4.textContent = `(${year})`;
+        h50.textContent = `(${year})`;
         p.textContent = synopsis;
+        h60.textContent = cast;
         h6.textContent = `${rating} / 10`;
     });
 }())
