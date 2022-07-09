@@ -47,7 +47,7 @@
         const h5 = movieDetailModal.querySelector('.modal-title');
         const h50 = movieDetailModal.querySelector('.modal-year');
         const p = movieDetailModal.querySelector('.modal-body p');
-        const h60 = movieDetailModal.querySelector('.modal-cast');
+        const span = movieDetailModal.querySelector('.modal-cast');
         const h6 = movieDetailModal.querySelector('.modal-rating');
         const img = movieDetailModal.querySelector('.modal-body img');
         
@@ -55,7 +55,7 @@
         h5.textContent = movieTitle;
         h50.textContent = `(${year})`;
         p.textContent = synopsis;
-        h60.textContent = cast;
+        span.textContent = cast;
         h6.textContent = `${rating} / 10`;
     });
 }())
